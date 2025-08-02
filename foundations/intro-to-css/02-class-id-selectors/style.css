@@ -1,0 +1,19 @@
+.basic {
+    background-color: #EBA2C1;
+    font-family: Verdana, "DejaVu Sans", sans-serif ;
+}
+
+#simple {
+    color: #355396;
+    font-size: 36px;
+}
+
+.advanced {
+    font-size: 24px;
+}
+
+#simple-too {
+    background-color: #95EDBD;
+    font-size: 24px;
+    font-weight: bold;
+}
