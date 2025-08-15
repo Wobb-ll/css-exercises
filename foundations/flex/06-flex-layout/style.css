@@ -29,6 +29,44 @@ input {
   width: 400px;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: #413f3f;
+}
+ /* code in comments is original before checking through solution */
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* width: 600px; */
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  /* margin: auto; */
+  gap: 8px;
+}
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+}
+
 
 
 
